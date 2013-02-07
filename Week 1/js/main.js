@@ -98,6 +98,7 @@ window.addEventListener("DOMContentLoaded", function () {
         var makeDiv = document.createElement('div');
         makeDiv.setAttribute("id", "items");
         makeDiv.setAttribute("class", "divSection");
+
         var makeList = document.createElement('ul');
         makeDiv.appendChild(makeList);
         document.body.appendChild(makeDiv);
@@ -138,7 +139,7 @@ window.addEventListener("DOMContentLoaded", function () {
     }
 
     function autoPopulateData() {
-        //Populate to-do records from JSON file it localStorage is empty.
+        //Populate to-do records from JSON file if localStorage is empty.
         for (var n in json) {
             var id = Math.floor(Math.random() * 100000001);
             localStorage.setItem(id, JSON.stringify(json[n]));
@@ -170,6 +171,11 @@ window.addEventListener("DOMContentLoaded", function () {
         deleteAnchor.addEventListener("click", deleteToDo);
         deleteAnchor.innerHTML = deleteAnchorText;
         linksLi.appendChild(deleteAnchor);
+
+        var br2 = document.createElement('br');
+        var br3 = document.createElement('br');
+        linksLi.appendChild(br2);
+        linksLi.appendChild(br3);
     }
 
     function deleteToDo() {
@@ -286,7 +292,7 @@ window.addEventListener("DOMContentLoaded", function () {
     }
 
     //Set up list of people that we will be assigning to-do's to.
-    var toDoAssignees = ["--Choose Staff Member--", "Jim", "Kim"];
+    var toDoAssignees = ["--Choose Staff Member--", "James Makowski", "Sarah Slegona", "Garrett Moore", "Josh Huffine", "Andrew Mund"];
     createAssigneeList();
     errorList = $$('errorList');
 
