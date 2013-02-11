@@ -1,0 +1,126 @@
+﻿body {
+     	
+    background-color: #cccccc;
+    color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+}
+
+#chkEmailAssignee {
+    width: 20px !important;
+}
+
+#divLinks {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+select {
+    width: 92%;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    height: 90px;
+    max-height: 200px;
+}
+
+label {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    width: 90%;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+#chkEmailAssignee {
+    left: 10px;
+}
+
+#btnSubmit {
+    width: 100px !important;
+    margin-left: 10px;
+    height: 25px !important;
+}
+
+.divSection {
+    background-color: #333333;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+
+.sectionHeader {
+    position: relative;
+    top: 8px;
+    color: #333333;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.divHeader {
+    background-color: #444444;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#divBrowse ul li {
+    color: #00bfef;
+    font-size: 30px;
+    font-family: Arial;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #C5C5C5;
+}
+
+#divBrowse ul li a {
+    color: #00bfef;
+    font-size: 30px;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+#divBrowse ul li span {
+    float: right; 
+    right: 10px; 
+    position: relative;
+}
+
+#liFirstItem {
+    color: #00bfef;
+    font-size: 30px;
+    font-family: Arial;
+    padding-bottom: 2px;
+    /*border-top: 1px solid #C5C5C5;*/
+}
+
+#liLastItem {
+    color: #00bfef;
+    font-size: 30px;
+    font-family: Arial;
+    padding-bottom: -5px !important;
+    border-bottom: 0px !important;
+}
